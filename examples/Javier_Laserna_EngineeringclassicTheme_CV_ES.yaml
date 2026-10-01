@@ -3,7 +3,7 @@ cv:
   name: "Javier Laserna Moratalla"
   headline: "Doctor en Automática y Robótica"
   location: "Madrid, España"
-  email: "javi.lm.96@me.com"
+  email: "j.laserna@upm.es"
   phone: "(+34) 626467915"
   website: "https://jlaserna.es"
   social_networks:
@@ -49,7 +49,7 @@ cv:
         start_date: 2026-09
         end_date: present
         location: "Madrid, España"
-        summary: "Validación del hardware y software de Ray, la plataforma robótica social que diseñé y construí durante mi tesis doctoral, mediante el diseño y la ejecución de pruebas de verificación de su funcionamiento, tanto sin personas como en interacción con usuarios."
+        summary: "Validación del hardware y software de Ray, la plataforma robótica social que diseñé y construí durante mi tesis doctoral, mediante el diseño y la ejecución de pruebas de verificación de su funcionamiento, tanto sin personas como en interacción con usuarios, así como su mantenimiento y la documentación del código."
       - company: "Centro de Automática y Robótica (CAR) - UPM/CSIC"
         position: "Investigador Predoctoral (Contrato FPI)"
         start_date: 2022-09

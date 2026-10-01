@@ -49,7 +49,7 @@ cv:
         start_date: 2026-09
         end_date: present
         location: Madrid, Spain
-        summary: Validation of the hardware and software of Ray, the social robotic platform I designed and built during my PhD, through the design and execution of functional verification tests, both standalone and in interaction with human users.
+        summary: Validation of the hardware and software of Ray, the social robotic platform I designed and built during my PhD, through the design and execution of functional verification tests, both standalone and in interaction with human users, as well as its maintenance and code documentation.
       - company: Centro de Automática y Robótica (CAR) - UPM/CSIC 
         position: Predoctoral Researcher (FPI Fellow) 
         start_date: 2022-09 
