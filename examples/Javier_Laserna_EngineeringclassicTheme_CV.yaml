@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Javier Laserna Moratalla 
+  headline: PhD in Automation and Robotics
+  location: Madrid, Spain 
+  email: j.laserna@upm.es 
+  phone: '(+34) 626467915' 
+  website: https://jlaserna.es 
+  social_networks:
+    - network: LinkedIn
+      username: javierlaserna 
+    - network: ORCID
+      username: 0009-0004-2494-7458
+    - network: GitHub
+      username: jlaserna
+  custom_connections:
+  sections:
+    Summary:
+      - |
+        I am a postdoctoral researcher at CAR-CSIC/UPM and hold a PhD in Automation and Robotics from UPM (Sobresaliente *cum laude*), specializing in exact combinatorial algorithms for robust 3D perception and their application in social robotics. During my doctoral research at CAR-CSIC/UPM (FPI fellowship), I developed CliReg, a state-of-the-art graph-theoretic solver for rigid point cloud registration, and engineered Ray, a custom-built social robotic platform with a distributed dual-layer middleware (micro-RayOS/RayOS) for safe, perception-driven interaction. My profile bridges rigorous mathematical optimization with robust systems engineering, backed by my industry background as a Site Reliability Engineer. Proven track record in both theoretical research (SLAM, perception) and mentoring, having directed 9 academic theses.
+
+    Education:
+      - institution: Universidad Politécnica de Madrid (UPM) 
+        area: Automation and Robotics
+        degree: PhD 
+        start_date: 2022-09 
+        end_date: 2026-09
+        location: Madrid, Spain 
+        summary: |
+          **Thesis:** *Clique-Based Optimization for Robust Perception and Interaction in Robotics: Applications to SLAM and Social Assistance*
+          **Supervisors:** Dr. Pablo San Segundo Carrillo & Dr. Daniel Galán Vicente
+          **Grade:** Sobresaliente *cum laude* (highest distinction), defended on September 28, 2026
+      - institution: Universidad Politécnica de Madrid (UPM) 
+        area: Industrial Electronic Engineering
+        degree: MSc 
+        date: 2022-02 
+        location: Madrid, Spain 
+        summary: "Specialized in embedded systems research. TFM: *Deep Neuroevolution in Reconfigurable Hardware* (Grade: 10/10)."
+      - institution: Universidad Politécnica de Madrid (UPM) 
+        area: Industrial Electronics and Automation Engineering
+        degree: BSc 
+        date: 2020-02 
+        location: Madrid, Spain 
+        summary: "TFG: *Grafos. Implementación eficiente del Algoritmo del Máximo Clique* (Grade: 10/10)."
+
+    Research Experience:
+      - company: Centro de Automática y Robótica (CAR) - UPM/CSIC
+        position: Postdoctoral Researcher
+        start_date: 2026-09
+        end_date: present
+        location: Madrid, Spain
+        summary: Validation of the hardware and software of Ray, the social robotic platform I designed and built during my PhD, through the design and execution of functional verification tests, both standalone and in interaction with human users.
+      - company: Centro de Automática y Robótica (CAR) - UPM/CSIC 
+        position: Predoctoral Researcher (FPI Fellow) 
+        start_date: 2022-09 
+        end_date: 2026-09
+        location: Madrid, Spain 
+        summary: |
+          Doctoral research on the mathematical formulation of exact combinatorial optimization algorithms (CliReg) to solve NP-complete perception problems.
+        highlights:
+          - Validated exact geometric verification for Loop Closure in 3D LiDAR SLAM, drastically reducing perceptual aliasing in outdoor environments.
+          - Engineered Ray, a custom-built social robotic platform, and its dual-layer middleware (micro-RayOS/RayOS) for real-time proxemic control.
+      - company: StachnissLab Photogrammetry & Robotics, University of Bonn 
+        position: Visiting Researcher 
+        start_date: 2024-09 
+        end_date: 2024-12 
+        location: Bonn, Germany 
+        summary: "4-month research stay focusing on spatial perception and 3D SLAM."
+      - company: Centro de Automática y Robótica (CAR) - UPM/CSIC 
+        position: Postgraduate Researcher 
+        start_date: 2020-07 
+        end_date: 2022-07 
+        location: Madrid, Spain 
+        summary: "Developed improvements in C++ frameworks for solving complex NP problems applied to robust SLAM and biometrics."
+
+    Publications:
+      - title: 'CliReg: Clique-based Robust Point Cloud Registration' 
+        authors:
+          - Javier Laserna
+          - Pablo San Segundo
+          - Daniel Álvarez
+        journal: IEEE Transactions on Robotics (T-RO), Vol. 41, pp. 1-20 
+        date: 2025-02
+      - title: 'Loop Closure via Maximal Cliques in 3D LiDAR-Based SLAM' 
+        authors:
+          - Javier Laserna
+          - Saurabh Gupta
+          - Oscar Martinez Mozos
+          - Cyrill Stachniss
+          - Pablo San Segundo
+        journal: European Conference on Mobile Robots (ECMR) 
+        date: 2025-09 
+      - title: 'Combining vision and range sensors for AMCL localization in corridor environments with rectangular signs' 
+        authors:
+          - Paloma de la Puente
+          - Germán Vega-Martínez
+          - Patricia Javierre
+          - Javier Laserna
+          - Elena Martín-Arias
+        journal: Frontiers in Robotics and AI 
+        date: 2025-09 
+      - title: 'A New Emotional Social Robotic Platform' 
+        authors:
+          - Daniel Sotelo
+          - Javier Laserna
+          - Daniel Galan
+          - Fernando Matia
+        journal: Iberian Robotics Conference (ROBOT) 
+        date: 2024-11 
+      - title: 'AMCL hybrid localization through the incorporation of visual rectangular landmarks' 
+        authors:
+          - Germán Vega-Martínez
+          - Javier Laserna
+          - Paloma De La Puente
+        journal: International Conference on Methods and Models in Automation and Robotics (MMAR) 
+        date: 2024-08 
+      - title: 'A Multi-FPGA Scalable Framework for Deep Reinforcement Learning Through Neuroevolution' 
+        authors:
+          - Javier Laserna Moratalla
+          - Andrés Otero Marnotes
+          - Eduardo de la Torre Arnanz
+        journal: 18th International Symposium on Applied Reconfigurable Computing (ARC) 
+        date: 2022-09 
+
+    Mentoring & Teaching:
+      - name: Theses Supervised (9)
+        summary: |
+          Co-directed 9 Final Degree Projects (TFG/TFM) at ETSIDI and ETSII spanning robotics, 3D perception, and hardware design. Notable topics include:
+          - *Algorithm for 3D Facial Recognition Based on Clique Models*
+          - *Evaluation of an RGB-D hybrid localization system in complex environments*
+          - *Design of a custom Power Management PCB based on Arduino GIGA for Social Robotics*
+      - name: University Instructor (FPI Teaching Collaboration)
+        summary: |
+          Completed a total of 180 hours of official teaching collaboration (the maximum allowed under the FPI predoctoral fellowship) for the following courses:
+          - *Automatics and Computer Science*, ETSIDI - UPM (2022 - 2025)
+          - *Industrial Computer Science and Telecommunications*, ETSIDI - UPM (2022 - 2025)
+          - *Programming Fundamentals*, ETSII - UPM (2022 - 2024)
+
+    Projects:
+      - name: 'BRAINS-CAR-UPM: Real applications based on neural, intelligent, and sustainable approaches' 
+        start_date: 2025-09 
+        end_date: present
+        location: CAR-CSIC / UPM 
+        summary: Team member. Total funding €113,375. #
+      - name: 'ACOGES: Cognitive Assistance for Social Environments' 
+        start_date: 2021-09 
+        end_date: 2024-08 
+        location: CAR-CSIC / UPM 
+        summary: Core developer of the Ray social robotic platform. Total funding €124,630. #
+      - name: 'GRob-UPM (RoboCity2030 Digital Innovation Hub)' 
+        start_date: 2020-07 
+        end_date: 2022-06 
+        location: CAR-CSIC / UPM 
+        summary: Team member. Total funding €194,326. #
+
+    Industry Experience:
+      - company: Kyndryl 
+        position: Site Reliability Engineer 
+        start_date: 2021-09 
+        end_date: 2022-09 
+        location: Madrid, Spain 
+        summary: Infrastructure, automation, and reliability engineering in high-level corporate production environments. #
+      - company: IBM, S.A. 
+        position: Site Reliability Engineer 
+        start_date: 2020-09 
+        end_date: 2021-09 
+        location: Madrid, Spain 
+        summary: Advanced software development (C++, Python, Bash) and tooling (Docker, GitHub, Jenkins) for DevOps tasks. #
+      - company: CAF Signaling 
+        position: Product Development Engineer 
+        start_date: 2018-09 
+        end_date: 2019-01 
+        location: Alcobendas, Madrid, Spain 
+        summary: Embedded software development for railway signaling systems.
+
+    Honors & Awards:
+      - name: AIIM Recognition
+        date: 2025
+        summary: Received recognition from the Association of Industrial Engineers of Madrid (AIIM) for co-tutoring work in the XXI Awards, granted by the Rodolfo Benito Samaniego Foundation.
+
+    Skills:
+      - label: Programming
+        details: C++, Python, C, Bash, Java, PHP, MATLAB, VHDL, Angular
+      - label: "Robotics & Perception"
+        details: ROS/ROS2, SLAM & Autonomous Navigation of Mobile Robots, 2D/3D LiDAR, 3D/RGB-D Cameras, GPS, Point Clouds & Registration, Combinatorial Optimization, Computer Vision
+      - label: "Embedded & Hardware"
+        details: Embedded Systems Programming (Arduino, FPGA), PCB Design (Altium), AutoDesk Inventor, AutoCAD, 3D Printing
+      - label: "Tools & Cloud"
+        details: Linux (Ubuntu), Docker, AWS, Ansible, Kubernetes, CI/CD tools, Jenkins
+      - label: Languages
+        details: Spanish (Native), English (Professional working proficiency), German (A1.1) 
+
+design:
+  theme: moderncv
+
+locale:
+  language: english
+
+settings:
+  current_date: today

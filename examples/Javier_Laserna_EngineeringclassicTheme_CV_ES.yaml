@@ -1,0 +1,200 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: "Javier Laserna Moratalla"
+  headline: "Doctor en Automática y Robótica"
+  location: "Madrid, España"
+  email: "javi.lm.96@me.com"
+  phone: "(+34) 626467915"
+  website: "https://jlaserna.es"
+  social_networks:
+    - network: "LinkedIn"
+      username: "javierlaserna"
+    - network: "ORCID"
+      username: "0009-0004-2494-7458"
+    - network: "GitHub"
+      username: "jlaserna"
+  custom_connections:
+  sections:
+    Perfil Profesional:
+      - |
+        Soy investigador postdoctoral en el CAR-CSIC/UPM y Doctor en Automática y Robótica por la UPM (Sobresaliente *cum laude*), especializado en algoritmos combinatorios exactos para la percepción 3D robusta y su aplicación en robótica social. Durante mi doctorado en el CAR-CSIC/UPM (contrato FPI) desarrollé CliReg, un solver de última generación basado en teoría de grafos para el registro rígido de nubes de puntos. Asimismo, diseñé y construí Ray, una plataforma robótica social a medida que cuenta con un middleware distribuido de doble capa (micro-RayOS/RayOS) para lograr una interacción segura y guiada por la percepción. Mi perfil combina la optimización matemática con una sólida ingeniería de sistemas, todo ello respaldado por mi experiencia previa en la industria como Site Reliability Engineer. Cuento con una trayectoria demostrada tanto en la investigación teórica (SLAM, percepción) como en la docencia, habiendo codirigido 9 trabajos académicos (TFGs/TFMs).
+
+    Formación Académica:
+      - institution: "Universidad Politécnica de Madrid (UPM)"
+        area: "Automática y Robótica"
+        degree: "Doctorado"
+        start_date: 2022-09
+        end_date: 2026-09
+        location: "Madrid, España"
+        summary: |
+          **Tesis:** *Optimización basada en cliques para una percepción e interacción robustas en robótica: Aplicaciones a SLAM y asistencia social*.
+          **Directores:** Dr. Pablo San Segundo Carrillo y Dr. Daniel Galán Vicente.
+          **Calificación:** Sobresaliente *cum laude* (defendida el 28 de septiembre de 2026).
+      - institution: "Universidad Politécnica de Madrid (UPM)"
+        area: "Ingeniería Electrónica Industrial"
+        degree: "Máster Universitario"
+        date: 2022-02
+        location: "Madrid, España"
+        summary: "Especialidad en investigación de sistemas embebidos. TFM: *Deep Neuroevolution in Reconfigurable Hardware* (Calificación: 10/10)."
+      - institution: "Universidad Politécnica de Madrid (UPM)"
+        area: "Ingeniería en Electrónica Industrial y Automática"
+        degree: "Grado"
+        date: 2020-02
+        location: "Madrid, España"
+        summary: "TFG: *Grafos. Implementación eficiente del Algoritmo del Máximo Clique* (Calificación: 10/10)."
+
+    Experiencia Investigadora:
+      - company: "Centro de Automática y Robótica (CAR) - UPM/CSIC"
+        position: "Investigador Postdoctoral"
+        start_date: 2026-09
+        end_date: present
+        location: "Madrid, España"
+        summary: "Validación del hardware y software de Ray, la plataforma robótica social que diseñé y construí durante mi tesis doctoral, mediante el diseño y la ejecución de pruebas de verificación de su funcionamiento, tanto sin personas como en interacción con usuarios."
+      - company: "Centro de Automática y Robótica (CAR) - UPM/CSIC"
+        position: "Investigador Predoctoral (Contrato FPI)"
+        start_date: 2022-09
+        end_date: 2026-09
+        location: "Madrid, España"
+        summary: |
+          Investigación doctoral centrada en la formulación matemática de algoritmos de optimización combinatoria exacta (CliReg) para resolver problemas de percepción NP-completos.
+        highlights:
+          - "Validación de un sistema de verificación geométrica exacta para el cierre de bucle en SLAM 3D con LiDAR, reduciendo drásticamente el falso reconocimiento de lugares (perceptual aliasing) en entornos exteriores."
+          - "Diseño y construcción de la plataforma robótica social Ray, junto con su middleware de doble capa (micro-RayOS/RayOS) para el control proxémico en tiempo real."
+      - company: "StachnissLab Photogrammetry & Robotics, Universidad de Bonn"
+        position: "Investigador Visitante"
+        start_date: 2024-09
+        end_date: 2024-12
+        location: "Bonn, Alemania"
+        summary: "Estancia de investigación de 4 meses enfocada en la percepción espacial y el SLAM 3D."
+      - company: "Centro de Automática y Robótica (CAR) - UPM/CSIC"
+        position: "Investigador de Posgrado"
+        start_date: 2020-07
+        end_date: 2022-07
+        location: "Madrid, España"
+        summary: "Desarrollo y optimización de entornos de trabajo en C++ para la resolución de problemas NP complejos, aplicados a SLAM robusto y biometría."
+
+    Publicaciones:
+      - title: 'CliReg: Clique-based Robust Point Cloud Registration'
+        authors:
+          - "Javier Laserna"
+          - "Pablo San Segundo"
+          - "Daniel Álvarez"
+        journal: "IEEE Transactions on Robotics (T-RO), Vol. 41, pp. 1-20"
+        date: 2025-02
+      - title: 'Loop Closure via Maximal Cliques in 3D LiDAR-Based SLAM'
+        authors:
+          - "Javier Laserna"
+          - "Saurabh Gupta"
+          - "Oscar Martinez Mozos"
+          - "Cyrill Stachniss"
+          - "Pablo San Segundo"
+        journal: "European Conference on Mobile Robots (ECMR)"
+        date: 2025-09
+      - title: 'Combining vision and range sensors for AMCL localization in corridor environments with rectangular signs'
+        authors:
+          - "Paloma de la Puente"
+          - "Germán Vega-Martínez"
+          - "Patricia Javierre"
+          - "Javier Laserna"
+          - "Elena Martín-Arias"
+        journal: "Frontiers in Robotics and AI"
+        date: 2025-09
+      - title: 'A New Emotional Social Robotic Platform'
+        authors:
+          - "Daniel Sotelo"
+          - "Javier Laserna"
+          - "Daniel Galan"
+          - "Fernando Matia"
+        journal: "Iberian Robotics Conference (ROBOT)"
+        date: 2024-11
+      - title: 'AMCL hybrid localization through the incorporation of visual rectangular landmarks'
+        authors:
+          - "Germán Vega-Martínez"
+          - "Javier Laserna"
+          - "Paloma De La Puente"
+        journal: "International Conference on Methods and Models in Automation and Robotics (MMAR)"
+        date: 2024-08
+      - title: 'A Multi-FPGA Scalable Framework for Deep Reinforcement Learning Through Neuroevolution'
+        authors:
+          - "Javier Laserna Moratalla"
+          - "Andrés Otero Marnotes"
+          - "Eduardo de la Torre Arnanz"
+        journal: "18th International Symposium on Applied Reconfigurable Computing (ARC)"
+        date: 2022-09
+
+    Docencia y Dirección de Trabajos:
+      - name: "Trabajos Académicos Dirigidos (9)"
+        summary: |
+          Codirección de 9 Trabajos de Fin de Grado (TFG) y de Máster (TFM) en la ETSIDI y la ETSII, abarcando áreas como la robótica, la percepción 3D y el diseño de hardware. Entre los proyectos destacados se incluyen:
+          - *Algoritmo para Reconocimiento Facial 3D basado en Modelos de Cliques*
+          - *Evaluación de un sistema de localización híbrido RGB-D en entornos complejos*
+          - *Diseño de una placa base (PCB) a medida para gestión de energía basada en Arduino GIGA para Robótica Social*
+      - name: "Docencia Universitaria (Colaboración docente FPI)"
+        summary: |
+          Impartición de 180 horas de docencia oficial (el máximo permitido por la beca predoctoral FPI) en las siguientes asignaturas:
+          - *Automática e Informática*, ETSIDI - UPM (2022 - 2025)
+          - *Informática Industrial y Telecomunicaciones*, ETSIDI - UPM (2022 - 2025)
+          - *Fundamentos de Programación*, ETSII - UPM (2022 - 2024)
+
+    Proyectos de Investigación:
+      - name: 'BRAINS-CAR-UPM: Real applications based on neural, intelligent, and sustainable approaches'
+        start_date: 2025-09
+        end_date: present
+        location: "CAR-CSIC / UPM"
+        summary: "Investigador participante. Financiación total: 113.375 €."
+      - name: 'ACOGES: Cognitive Assistance for Social Environments'
+        start_date: 2021-09
+        end_date: 2024-08
+        location: "CAR-CSIC / UPM"
+        summary: "Desarrollador principal de la plataforma robótica social Ray. Financiación total: 124.630 €."
+      - name: 'GRob-UPM (RoboCity2030 Digital Innovation Hub)'
+        start_date: 2020-07
+        end_date: 2022-06
+        location: "CAR-CSIC / UPM"
+        summary: "Investigador participante. Financiación total: 194.326 €."
+
+    Experiencia en la Industria:
+      - company: "Kyndryl"
+        position: "Site Reliability Engineer"
+        start_date: 2021-09
+        end_date: 2022-09
+        location: "Madrid, España"
+        summary: "Gestión de infraestructura, automatización e ingeniería de fiabilidad en entornos de producción corporativa de alto nivel."
+      - company: "IBM, S.A."
+        position: "Site Reliability Engineer"
+        start_date: 2020-09
+        end_date: 2021-09
+        location: "Madrid, España"
+        summary: "Desarrollo avanzado de software (C++, Python, Bash) y creación de herramientas y flujos de trabajo (Docker, GitHub, Jenkins) para tareas DevOps."
+      - company: "CAF Signaling"
+        position: "Ingeniero de Desarrollo de Producto"
+        start_date: 2018-09
+        end_date: 2019-01
+        location: "Alcobendas, Madrid, España"
+        summary: "Desarrollo de software embebido para sistemas de señalización ferroviaria."
+
+    Premios y Reconocimientos:
+      - name: "Reconocimiento de la AIIM"
+        date: 2025
+        summary: "Galardonado por la Asociación de Ingenieros Industriales de Madrid (AIIM) en reconocimiento a la labor de cotutorización durante los Premios XXI de la Fundación Rodolfo Benito Samaniego."
+
+    Habilidades Técnicas:
+      - label: "Programación"
+        details: "C++, Python, C, Bash, Java, PHP, MATLAB, VHDL, Angular"
+      - label: "Robótica y Percepción"
+        details: "ROS/ROS2, SLAM y navegación autónoma de robots móviles, LiDAR 2D/3D, Cámaras 3D/RGB-D, GPS, Nubes de puntos y registro, Optimización combinatoria, Visión por computador"
+      - label: "Sistemas Embebidos y Hardware"
+        details: "Programación de sistemas embebidos (Arduino, FPGA), Diseño de PCB (Altium), AutoDesk Inventor, AutoCAD, Amplios conocimientos en impresión 3D"
+      - label: "Herramientas e Infraestructura Cloud"
+        details: "Linux (Ubuntu), Docker, AWS, Ansible, Kubernetes, herramientas CI/CD, Jenkins"
+      - label: "Idiomas"
+        details: "Español (Nativo), Inglés (Alto), Alemán (A1.1)"
+
+design:
+  theme: moderncv
+
+locale:
+  language: spanish
+
+settings:
+  current_date: today
